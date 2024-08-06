@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* 头部样式 */
 header {
     background: linear-gradient(135deg, #6e8efb, #a777e3);
@@ -133,12 +138,12 @@ section {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-#menu, #about {
-    text-align: left;
+#menu, #about, #contact {
+    text-align: center;
 }
 
-#contact {
-    text-align: center;
+#about p {
+    text-align: left;
 }
 
 #menu h2, #about h2, #contact h2 {
